@@ -7,12 +7,10 @@ window.BAKERIA_FORM_CONFIG = {
     teamMembers: "entry.932805120",
     contactEmail: "entry.720788223",
     projectName: "entry.2136359351",
-    codeUrl: "entry.682441376",
-    problemArea: "entry.2019572225",
+    projectUrl: "entry.682441376",
     problem: "entry.1400338021",
     solution: "entry.1258445005",
     impact: "entry.847382914",
-    estimate: "entry.847927678",
-    demoUrl: "entry.631175405"
+    estimate: "entry.847927678"
   }
 };

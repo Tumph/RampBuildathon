@@ -9,15 +9,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,600,50,1;9..144,700,50,1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
   <script src="config.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
-  <header class="site-header"><div class="brand"><span class="brand-mark" aria-hidden="true">✳</span><span>Grandma’s <strong>Bakeria</strong></span></div><span class="event-tag">SOCRATICA <span aria-hidden="true">×</span> RAMP BUILDATHON · OCTOBER 2</span></header>
   <main class="page"><section class="submission" aria-labelledby="form-title">
-      <div class="submission-intro"><div><div class="eyebrow">THE FINAL HANDOFF <span aria-hidden="true">✳</span> SUBMISSIONS</div><h1 id="form-title">Show Grandma <em>what you built.</em></h1></div><p>One project, one delivery slip. Share your code, demo, and how your idea helps the bakery. Ramp engineers will take it from there.</p></div>
+      <div class="submission-intro"><div class="intro-copy"><h1 id="form-title">Show Grandma <em>what you built.</em></h1><p>One project, one delivery slip. Share your link and how your idea helps the bakery. Ramp engineers will take it from there.</p></div><div class="baking-icons" aria-hidden="true"><img src="pastries.svg" alt=""><img src="parfait.svg" alt=""><img src="croissant.svg" alt=""></div></div>
       <div class="form-card">
         <div class="form-card-top"><span>PROJECT DELIVERY SLIP</span><span>✳ 001</span></div>
         <form id="submission-form" novalidate>
@@ -26,9 +25,7 @@
           <div class="field-row two"><div class="field"><label for="contactEmail">Contact email <span>*</span></label><input id="contactEmail" name="contactEmail" type="email" autocomplete="email" maxlength="254" required placeholder="you@example.com"><small class="field-error" id="contactEmail-error"></small></div><div class="field"><label for="projectName">Project name <span>*</span></label><input id="projectName" name="projectName" maxlength="100" required placeholder="Give your build a name"><small class="field-error" id="projectName-error"></small></div></div>
 
           <div class="form-section-label"><span>02</span> THE BUILD</div>
-          <div class="field field-codeUrl"><label for="codeUrl">Code link <span>*</span></label><input id="codeUrl" name="codeUrl" type="url" inputmode="url" maxlength="1000" required placeholder="https://github.com/your-team/your-project"><small class="field-error" id="codeUrl-error"></small></div>
-          <div class="field field-demoUrl"><label for="demoUrl">Demo link <span class="optional">OPTIONAL</span></label><input id="demoUrl" name="demoUrl" type="url" inputmode="url" maxlength="1000" placeholder="https://your-live-demo-or-video.com"><small class="field-error" id="demoUrl-error"></small></div>
-          <div class="field field-problemArea"><label for="problemArea">Where did you help? <span>*</span></label><select id="problemArea" name="problemArea" required><option value="">Choose an area</option><option>Inventory</option><option>Purchasing</option><option>Marketing</option><option>Customers</option><option>Operations</option><option>Finances</option><option>Something else</option></select><small class="field-error" id="problemArea-error"></small></div>
+          <div class="field field-projectUrl"><label for="projectUrl">Project link <span>*</span></label><input id="projectUrl" name="projectUrl" type="url" inputmode="url" maxlength="1000" required placeholder="https://your-project-link.com"><small class="field-error" id="projectUrl-error"></small></div>
           <div class="field field-problem"><label for="problem">What problem did you notice? <span>*</span></label><textarea id="problem" name="problem" rows="2" maxlength="700" required placeholder="What was slowing Grandma down?"></textarea><small class="field-error" id="problem-error"></small></div>
           <div class="field field-solution"><label for="solution">What did you build? <span>*</span></label><textarea id="solution" name="solution" rows="2" maxlength="700" required placeholder="Explain it so Grandma would understand."></textarea><small class="field-error" id="solution-error"></small></div>
 
